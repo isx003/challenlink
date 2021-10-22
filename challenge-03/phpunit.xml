@@ -1,0 +1,20 @@
+<phpunit
+    colors="true"
+    testdox="true"
+    verbose="true"
+    stopOnError="true"
+    stopOnFailure="true"
+>
+    <testsuites>
+        <testsuite name="My Test Cases">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const name="NORMAL_ITEM_DESCRIPTION" value="normal"/>
+        <const name="AGE_BRIED_ITEM_DESCRIPTION" value="Aged Brie"/>
+        <const name="SULFURAS_ITEM_DESCRIPTION" value="Sulfuras"/>
+        <const name="BACKSTAGE_DESCRIPTION" value="Backstage passes to a TAFKAL80ETC concert"/>
+        <const name="CONJURED_ITEM_DESCRIPTION" value="Conjured Mana Cake"/>
+    </php>
+</phpunit>

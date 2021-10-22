@@ -1,0 +1,14 @@
+{
+    "require-dev": {
+        "kahlan/kahlan": "^1.2",
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
